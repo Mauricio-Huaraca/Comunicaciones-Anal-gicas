@@ -21,7 +21,7 @@ m = Am * sin(2*pi*fm*t);
 c = Ac * cos(2*pi*fc*t);
 
 % Señal AM
-s = Ac * (1 + ka*m) .* cos(2*pi*fc*t);
+s = Ac * (1 + ka.*m) .* cos(2*pi*fc.*t);
 
 % Gráficas
 figure;
